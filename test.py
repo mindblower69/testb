@@ -1,6 +1,6 @@
 import os
 
-print("Hello World!")
+print("Hello World")
 words = os.environ['WORD']
 colors = os.environ['COLOR']
 print('WORD: ')
