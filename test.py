@@ -1,9 +1,15 @@
 import os
 
 print("Hello World")
-words = os.environ['WORD']
-colors = os.environ['COLOR']
+words = os.environ.get('WORD')
+colors = os.environ.get('COLOR')
 print('WORD: ')
 print(words)
 print('COLOR: ')
 print(colors)
+wordsb = os.environ.get('APP_ADDRESS')
+colorsb = os.environ.get('APP_PASSWORD')
+print('APP_ADDRESS: ')
+print(wordsb)
+print('APP_PASSWORD: ')
+print(colorsb)
